@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="icon" href="demo_files/images/Ico edit.png" type="image/png">
+		<title>Rocket Elevator</title>
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/blue.css" rel="stylesheet" type="text/css" id="color_scheme" />
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/_smarty/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation">
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.b-0 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent b-0"
+			-->
+			<div id="header" class="navbar-toggleable-md sticky clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- Logo -->
+						<a class="logo float-left" href="Home_page.html">
+							<img src="demo_files/images/R2.png" alt="" />
+						</a>
+
+						<!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse collapse float-right nav-main-collapse">
+							<nav class="nav-main">
+
+								<!-- 
+									.nav-onepage
+									Required for onepage navigation links
+									
+									Add .external for an external link!
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+									<li><!-- HOME -->
+										<a href="Home_page.html">
+											HOME
+										</a>
+									</li>
+									
+									
+									<li class="dropdown"><!-- SERVICES -->
+										<a class="dropdown-toggle">	
+											
+												SERVICES
+																					
+										</a>
+										<ul class="dropdown-menu">
+											<li><!-- Residential -->
+												<a href="Residential.html">
+													RESIDENTIAL
+												</a>
+											</li>
+											<li><!-- CORPORATE-->
+												<a href="Corporate.html">
+													CORPORATE
+												</a>
+											</li>
+											
+										</ul>
+									</li>
+									<li><!-- WORK -->
+										<a href="Home_page.html#work">
+											WORK
+										</a>
+									</li>
+									<li><!-- NEWS -->
+										<a href="Home_page.html#news">
+											NEWS
+										</a>
+									</li>
+									
+									<li><!-- CLIENTS -->
+										<a href="Home_page.html#clients">
+											CLIENTS
+										</a>
+									</li>
+									
+									<li><!-- CONTACT -->
+										<a href="Home_page.html#contact">
+											CONTACT
+										</a>
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+
+			<!-- HOME -->
+			<section id="home" class="h-450" style="background:url('demo_files/images/citybuilding.jpg')">
+				<div class="display-table">
+					<div class="display-table-cell vertical-align-middle">
+						
+						<div class="container text-center">
+							
+							<h1 class="m-0 fs-50 fw-300 wow fadeInUp" data-wow-delay="0.4s" style=color:blanchedalmond><strong>Residential promotions</strong></h1>
+							
+							
+							
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- /HOME -->
+			
+			<section id="services">
+			<div class="container">
+				<div class="heading-title heading-dotted text-center"><h2>Our best projects</h2></div>
+				<div class="row">
+					<div class="col-sm-4">
+						<a>
+							<span class="image-hover-icon image-hover-dark"><!-- image-hover-light | image-hover-dark -->
+								<i class="fa fa-vimeo-square"><!-- video icon --></i>
+							</span>
+							<img class="img-fluid" src="demo_files/images/Glass-elevator-for-home edited1.jpg" alt="img" />
+						</a>
+
+						<h3 class="mt-10">Modern  elevator </h3>
+						<p>This modern looking elevator is one of our best seller since it matches the modern look of any room of your house.</p>
+						
+					</div>
+
+					<div class="col-sm-4">
+						<a>
+							<span class="image-hover-icon image-hover-dark"><!-- image-hover-light | image-hover-dark -->
+								<i class="fa fa-youtube-square"><!-- video icon --></i>
+							</span>
+							<img class="img-fluid" src="demo_files/images/Qube-White-Home-lift edited1.jpg" alt="img" />
+						</a>
+						<h3 class="mt-10">Our proud project</h3>
+						<p>Cost effective, simple looking and most importantly, accessible. This unit is designed for the safety and comfortable of its user.</p>
+						
+					</div>
+
+					<div class="col-sm-4">
+						<img class="img-fluid" src="demo_files/images/luxury elevator edited1.jpg" alt="img" />
+						<h3 class="mt-10">Play time for everyone!</h3>
+						<p>We figured a way for everyone to get to the party with our home elevator. Its everything you want in one unit.</p>
+						
+					</div>
+
+				</div>
+
+			</section>
+			<!-- FEATURES -->
+			<section id="features">
+				<div class="container">
+
+					<header class="text-center mb-60">
+						<h2>FEATURES</h2>
+						<p class="lead font-lato">Our best projects for <strong>your</strong> home</p>
+						<hr />
+					</header>
+
+					<!-- FEATURED BOXES 3 -->
+					<div class="row">
+						<!-- image 1 -->
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAgVBMVEX///8FBwgAAAD29/eVlZWhoaHW1tbMzMxzc3Pf39/i4uJISEmQkJGJiorw8PAABAUqKyu8vLzOzs7ExcU7PDxnZ2empqZMTU3q6upgYWGsrKxYWVmys7OSk5N4eXltbm4iIyMyMjMQEhIXGRo5OjoeHx8PEBEnJyhDREVSUlKAgYGgE2sDAAAFIklEQVR4nO2ca3uiMBBGMaitWi+trdXWpbdtbf3/P3CXMIjrhQSZJAP7nk+t8MQ5giTMDEYRAAAAAAAAAAAAAAAAAAAAAAAAAAAAALhi8jYJHYJb4g+lWq0Yz1RHTVusmAp2OuojDh2IM7RgmxXvM8H2Ku4E/yrOQgfjgkxwqlRbFR8zM7UgxU3ogLgZ0RG8ivqkeB86JF4eSXD+9+9WKj6T4K3+r4WK/wpG0RUpPgaNipFnmuhvd69cqWmbFB9IcL332rxNiqcEo+iWFJ8DRcXICwk+HbzeGsWEBBdHW25pyypAVIycF4yiNW178B4VI1uS6J3c2gLFXLB7ZvsTbX/xGhUjY4NgFC1oj8RjVIzcUPjjkn0arfjLQjCKurTX1lNUjNgJNlixZ336NVTRXrC4IN04j4qRKoKF4i/HUTFSdZ5rnGL1iTwpXfuI45KVSqMU83uGardFDVLM7/uq3hSdu48Ux6WCjVGsk385ne4QRr0E0+ooJyeOuhm01UFeVRz1c9mHqWNh3JHgd40x9usb4siP4O9ao+RFOIGKAxJ8qzlOUYYTRp9JMIq+6SjeMUTFyICxsntPin2GsdgYkuArS4/Fb3mKvIJR9CZNcUmCHbYumRkpDrgGrEcu+MXYr7aRpLg7gpwNefErKQ4ZB72QCQkyN1XGn1IUJ18UyZJ54NjVwBWZvDuLY3dyBFWMOw6jmLgc3JJ44/TL4ugrXgHnFzwX81AlXp1PWk5mInt8LB/z9WCQpmI/i0fuJW8FfN3j5Iob34r+7lMHYfqmfd6I86UPKuA3JRZA8cdzzu/Od1Ox/6QmRyq2AiFy714Vw9RPPDYVhyoQ5Yo/rt8oXB3Tk2LIQu3l5eUKhK1Ee1Asb/l1j/PW8PAdIY6bikMfwZRc8drF4DJaCB0eRXPTth/yvmn2dtS8afuzOya2PgvR823+tt2ZG8Xu7jHsAp+na2/vffNIWBV7xWPYO7yerycDMLWQ1xw/vCGj4uLU8AIM2RT3vwN7X4UAhseB8FwL+oMDhnr15N9QrYeHobjKZfYDGfprsQll6K9PqoZhvFxeUmVphOFyvX3MLxBvL4tqBasGGC7u99Yj0/TP95sKB1O8YbdYbBWTmVLX1tUW4YaDj2M/krTtWpdtuC78jlbPtg+PijZ8yvJH2u599JIkyWpWSFrmXCQbzlV+cUnmxaVl0JupKgkJwYa7jpGjveebCqlJwYY/VPo7NTOMqcRj0REk1zA7R89l4p9Kt+4j11B3pJzv/s6yPxYrarGG/czgfM+UfvbAomQm1vBa71iSMhpmH4HxmyjWML2QTksb7x7shpJqeKWMc3o2lLHLQqqhvpAYqsW629nYXynVUPcVqfIbiLHFpyDXMF2Rmrq19IxpTAsKNVzq3Qx3DxNlM+kLNcwOz6kfwdon7YVXU8NOQg31oszYOaU7rJRhJ6GG2UXElHLSpWVTq7hQQ133N65XdOHO1Igr1HBlc/5lv9pmmi6EGo70ms20V1YEMaSkhBqmve7KaGh1xRVqmFbc1Ydpr7sGG6ZPnJgb0K0Ga7ShvkU0lTphyI2lYfp0nflHJBpvODLtBUMNDLmBIQHDDBhqYMgNDAkYZsBQA0NuYEjAMAOGGhhyA0MChhn/i6FhsEUQw+/kupzp1N6wfLBkFMLwxDM6B6Sds5aGxsE6IQytsDW0GguGfPwPhvYYW9YG9mN5fPI4rgDjYB7MAAAAAAAAAAAAAAAAAAAAAAAAAAAAaDd/AN00REQ9Y8c0AAAAAElFTkSuQmCC"width="55px">
+								<h4>Residential</h4>
+								<p>We offer the best service and the best instalation team to all our customers.</p>
+							</div>
+						</div>
+						<!-- image 2 -->
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<img src="https://image.flaticon.com/icons/png/512/510/510943.png"width="55px">
+								<h4>Hybrid</h4>
+								<p>If you want to merge both work and home we got you covered! The hybrid is now available for purchase.</p>
+							</div>
+						</div>
+						<!-- image 3 -->
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Line-style-icons-tools-2.svg/1200px-Line-style-icons-tools-2.svg.png"width="55px">
+								<h4>Fiability</h4>
+								<p>We offer the best repair team on the market.</p>
+							</div>
+						</div>
+						<!-- image 4 -->
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<img src="https://static.thenounproject.com/png/14113-200.png"width="60px">
+								<h4>Green</h4>
+								<p>Having it's own power generation, our elevators are the most power saving units on the market </p>
+							</div>
+						</div>
+					</div>
+					<!-- /FEATURED BOXES 3 -->
+
+					
+
+				</div>
+			</section>
+			
+			<!-- / -->
+
+
+
+			
+
+
+<!-- FOOTER -->
+<footer id="footer">
+	<div class="container">
+
+
+		<div class="row">
+
+			<!-- col #1 -->
+			<div class="col-md-8">
+
+				<h3 class="letter-spacing-1">WHY US?</h3>
+
+				<!-- Small Description -->
+				<p>
+					Rocket elevators is a well know company for 3 things. First of all, we are making sure our team designs the best looking, ergonomic and safe elevator on the market. Second of all, we make sure our customers are happy with the final product they are being delivered. And last but not least, each year we innovate our way of thinking and creating new projects to add to our collection.
+				</p>
+				<h2>+1(581)701-0303</h2>
+			</div>
+			<!-- /col #1 -->
+
+			
+
+		</div>
+
+
+	</div>
+
+	<div class="copyright">
+		<div class="container">
+			<ul class="float-right m-0 list-inline mobile-block">
+				<li>Terms &amp; Conditions</li>
+				<li>&bull;</li>
+				<li>Privacy</li>
+			</ul>
+			&copy; All Rights Reserved, RocketElevators
+		</div>
+	</div>
+
+</footer>
+<!-- /FOOTER -->
+
+
+
+			
+
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script>var plugin_path = 'assets/plugins/';</script>
+		<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+
+		<script src="assets/js/scripts.js"></script>
+		
+		
+	</body>
+</html>
